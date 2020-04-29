@@ -1,17 +1,17 @@
 config:
-    author: Your Name here
-    siteName: Your Site Name here
-    siteDescription: The personal blog of Your Name
-    defaultPageTitle: Add a default page title here
+    author: han4wluc
+    siteName: han4wluc's homepage
+    siteDescription: han4wluc is a freelance fullstack developer
+    defaultPageTitle: han4wluc's homepage
     blogTitle: Blog
-    baseUrl: base url of your site here (e.g. www.mysite.com)
+    baseUrl: han4wluc.gitlab.io
 
     # For Twitter cards, this logo must be a hosted url, not a relative path.
     # Must be square. Minimum size is 144x144; maximum size 4096x4096.
-    websiteLogo: "https://cdn.auth0.com/blog/logos/nextjs-logo.png"
+    websiteLogo: "https://han4wluc.gitlab.io/static/images/profile.jpg"
 
     # if your string begins with a special character, you usually have to put it in quotes
-    twitterHandle: "@your twitter handle"
+    twitterHandle: "@han4wluc"
     twitterCardType: summary
 
     # This is list is used to create the links in the navigation panel

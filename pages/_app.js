@@ -71,18 +71,18 @@ export default class MyApp extends App {
                     <NextSeo config={seoData} />
 
                     {/* (2) navigation */}
-                    <Navigation
+                    {/* <Navigation
                         open={this.state.navOpen}
                         toggleNavigation={this.handleToggleNavigation}
-                    />
-                    <button
+                    /> */}
+                    {/* <button
                         type="button"
                         role="button"
                         aria-label="open navigation"
                         className="icon-button hamburger"
                         onClick={this.handleToggleNavigation}>
                         <FaBars size={20} />
-                    </button>
+                    </button> */}
 
                     {/* (3) page body */}
                     <React.Fragment>

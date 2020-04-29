@@ -73,6 +73,7 @@ export function pages() {
     return pageFileNames()
         .then(fileNameList => {
             const pageList = createPageList(fileNameList);
+            // console.warn('pageList', pageList)
             const sortedList = pageList
                 .sort((a, b) => a.secondsSinceEpoch - b.secondsSinceEpoch)
                 .reverse();
