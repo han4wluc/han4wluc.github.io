@@ -49,7 +49,7 @@ function Index() {
             </FlexView>
 
             <p>
-                I'm currently <b>available</b> for freelance work. Write me about your project, and we can schedule a session to talk about it.
+                I'm currently <b>available</b> for freelance work. Write me about your project by <a href="http://han4wluc.mikecrm.com/rIvNPzI" target="_blank" rel="noopener noreferrer">filling this form</a>, we can then schedule a session to talk about it.
             </p>
 
             <h4 style={{marginTop: 32}}>
