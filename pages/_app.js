@@ -66,7 +66,9 @@ export default class MyApp extends App {
                 <React.Fragment>
                     {/* (1) SEO  */}
                     <Head>
+                        <title>{postData.title}</title>
                         <meta name="keywords" content={tagsString} />
+                        <meta name="description" content={postData.description} />
                     </Head>
                     <NextSeo config={seoData} />
 

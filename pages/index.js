@@ -19,7 +19,7 @@ function Index() {
         }}>
             <FlexView vAlignContent="center" width={340}>
                 <FlexView marginRight={32}> 
-                    <img className="profile-img" src={profileImg} width="64" height="64"/>
+                    <img alt="han4wluc profile picture" className="profile-img" src={profileImg} width="64" height="64"/>
                 </FlexView>
                 <FlexView column>
                     <div className="name-title"> Luciano Hanyon Wu </div>
@@ -44,7 +44,7 @@ function Index() {
                     <FaLinkedin style={{color: '#0073b1'}} />
                 </a>
 
-                <img src={email} width="140" height="14"></img>
+                <img alt="han4wluc contact" src={email} width="140" height="14"></img>
 
             </FlexView>
 
