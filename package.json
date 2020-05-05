@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "han4wluc's homepage",
     "scripts": {
-        "dev": "NODE_ENV=development next",
+        "dev": "NODE_ENV=development next --port 3001",
         "build": "NODE_ENV=production next build",
         "build-dev": "NODE_ENV=development next build",
         "start": "NODE_ENV=production next start",

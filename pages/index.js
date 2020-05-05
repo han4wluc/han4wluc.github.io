@@ -107,6 +107,29 @@ function Index() {
                 Every project has different requirements, and I am very eager to use learn different technologies for different projects.
             </p>
 
+            <h4>
+                Personal Projects
+            </h4>
+
+            <p>
+                A list of personal projects. I have started maintaining this list since 2020. 
+                <br />
+                <h3>2020</h3>
+                <ul>
+                    <li>
+                        <b><a href="https://github.com/han4wluc/tsadmin-dashboard">tsadmin</a></b>: A library to generate dashboards in order to perform CRUD operations on backend data that utilized TypeORM.
+                    </li>
+                    <li>
+                        <b><a href="https://github.com/han4wluc/mobx-react-bind" target="_blank" rel="noopener noreferrer">mobx-react-bind</a></b>: A state management library to be used with mobx and react.
+                    </li>
+                    <li>
+                        <b>
+                            <a href="https://about.tedo.tech" target="_blank" rel="noopener noreferrer">Tedo</a>
+                        </b>: A web and API platform to create and consume code templates.
+                    </li>
+                </ul>
+            </p>
+
             <style jsx>{`
                 .social-icon {
                     font-size: 20px;
@@ -120,7 +143,7 @@ function Index() {
                 .name-subtitle {
                     font-size: 18px;
                     font-weight: 200;
-                    color: #888;
+                    color: #555;
                     margin-top: 8px;
                 }
                 .profile-img {
