@@ -117,7 +117,7 @@ function Index() {
                 <h3>2020</h3>
                 <ul>
                     <li>
-                        <b><a href="https://github.com/han4wluc/tsadmin-dashboard">tsadmin</a></b>: A library to generate dashboards in order to perform CRUD operations on backend data that utilized TypeORM.
+                        <b><a href="https://github.com/han4wluc/tsadmin-dashboard" target="_blank" rel="noopener noreferrer">tsadmin</a></b>: A library to generate dashboards in order to perform CRUD operations on backend data that utilized TypeORM.
                     </li>
                     <li>
                         <b><a href="https://github.com/han4wluc/mobx-react-bind" target="_blank" rel="noopener noreferrer">mobx-react-bind</a></b>: A state management library to be used with mobx and react.
