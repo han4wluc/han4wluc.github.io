@@ -35,7 +35,7 @@ function Index() {
                 <a className="social-icon" href="https://gitlab.com/han4wluc" target="_blank" rel="noopener noreferrer">
                     <FaGitlab/>
                 </a>
-                
+
                 <a className="social-icon" href="https://twitter.com/han4wluc" target="_blank" rel="noopener noreferrer">
                     <FaTwitter style={{color: '#1da1f2'}} />
                 </a>
@@ -69,6 +69,7 @@ function Index() {
                 I have spent most of professional career working in startups and international environments. My most notable experiences were:
                 <br/>
                 <ul>
+                    <li>In 2015 I joined a small startup in Shanghai, we developed two English language learning mobile apps using react-native. One of those apps won a Xiaomi Golden App Award</li>
                     <li>In 2017 have been Co-founder CTO of a small startup, which then turned into <a href="https://www.edugo.ai" target="_blank" rel="noopener noreferrer">edugo.ai</a>, here I developed from scratch a mobile app for learning Chinese. </li>
                     <li>In 2019 I have been a tech lead in a fast-growing Chinese startup. We developed a chatbot that has served over a hundred million users in the Chinese e-commerce sector. </li>
                 </ul>
