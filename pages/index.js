@@ -1,4 +1,5 @@
 import FlexView from 'react-flexview'
+import Link from 'next/link'
 import profileImg from '../public/static/images/profile.jpg'
 import email from '../public/static/images/email.png'
 import { FaGithub, FaGitlab, FaLinkedin, FaTwitter } from 'react-icons/fa';
@@ -6,7 +7,7 @@ import { FaGithub, FaGitlab, FaLinkedin, FaTwitter } from 'react-icons/fa';
 export const meta = {
     title: "han4wluc",
     tags: ["han4wluc", "freelance", "job", "fullstack", "developer"],
-    layout: "post",
+    layout: "page",
     publishDate: "2020-04-29",
     modifiedDate: false,
     seoDescription: "han4wluc homepage and blog. Luciano Hanyon Wu is a freelance fullstack developer."
@@ -115,7 +116,7 @@ function Index() {
             <p>
                 A list of personal projects. I have started maintaining this list since 2020. 
                 <br />
-                <h3>2020</h3>
+                <h5>2020</h5>
                 <ul>
                     <li>
                         <b><a href="https://github.com/han4wluc/tsadmin-dashboard" target="_blank" rel="noopener noreferrer">tsadmin</a></b>: A library to generate dashboards in order to perform CRUD operations on backend data that utilized TypeORM.
@@ -127,6 +128,15 @@ function Index() {
                         <b>
                             <a href="https://about.tedo.tech" target="_blank" rel="noopener noreferrer">Tedo</a>
                         </b>: A web and API platform to create and consume code templates.
+                    </li>
+                </ul>
+            </p>
+
+            <p>
+                <h4>Posts</h4>
+                <ul>
+                    <li>
+                        <b><Link href="/blog/looking-at-the-future-of-covid-19-through-a-story-of-alibaba-during-sars-2003">Looking at the future of COVID-19, through a Story of Alibaba during SARS 2003</Link></b>
                     </li>
                 </ul>
             </p>

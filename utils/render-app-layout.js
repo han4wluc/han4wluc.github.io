@@ -11,7 +11,7 @@ export function renderLayout(props, state) {
     switch (layout) {
         case "post":
             return (
-                <BlogLayout>
+                <BlogLayout postData={postData}>
                     <Component {...props} postData={postData} />
                 </BlogLayout>
             );
@@ -32,10 +32,13 @@ export function renderLayout(props, state) {
         case "page":
         default:
             return (
-                <React.Fragment>
+                <div className="blog-layout">
                     <Component {...props} />
                     {/* Put styled-jsx here */}
-                </React.Fragment>
+                    <style jsx>{`
+                        margin: auto;
+                    `}</style>
+                </div>
             );
     }
 }

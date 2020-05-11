@@ -2,7 +2,7 @@ import React from "react";
 import PostListing from "../components/PostListing";
 
 export const meta = {
-    title: "Programming Posts",
+    title: "Posts",
     tags: ["Next.js", "MDX"],
     layout: "blog-post-list",
     publishDate: "2011-01-01",

@@ -1,12 +1,12 @@
 import { formatSEODate, getSecondsSinceEpoch } from "./formatters";
 import { config } from "../config/config.yml";
 
-const postFileNames = () => {
-    const postFileNames =
-        preval`module.exports = require("fs").readdirSync("./pages/blog")` ||
-        [];
-    return Promise.resolve(postFileNames);
-};
+// const postFileNames = () => {
+//     const postFileNames =
+//         preval`module.exports = require("fs").readdirSync("./pages/blog")` ||
+//         [];
+//     return Promise.resolve(postFileNames);
+// };
 
 const createPostList = fileNameList => {
     return fileNameList.reduce((collection, name) => {
@@ -67,13 +67,14 @@ const createPostList = fileNameList => {
 };
 
 export function posts() {
-    return postFileNames()
-        .then(fileNameList => {
-            const postList = createPostList(fileNameList);
-            const sortedList = postList
-                .sort((a, b) => a.secondsSinceEpoch - b.secondsSinceEpoch)
-                .reverse();
-            return sortedList;
-        })
-        .catch(error => console.log("Error creating postList", error));
+    // return postFileNames()
+    //     .then(fileNameList => {
+    const fileNameList = ['looking-at-the-future-of-covid-19-through-a-story-of-alibaba-during-sars-2003.mdx']
+    const postList = createPostList(fileNameList);
+    const sortedList = postList
+        .sort((a, b) => a.secondsSinceEpoch - b.secondsSinceEpoch)
+        .reverse();
+    return sortedList;
+        // })
+        // .catch(error => console.log("Error creating postList", error));
 }

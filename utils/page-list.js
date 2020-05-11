@@ -70,14 +70,10 @@ const createPageList = fileNameList => {
 };
 
 export function pages() {
-    return pageFileNames()
-        .then(fileNameList => {
-            const pageList = createPageList(fileNameList);
-            // console.warn('pageList', pageList)
-            const sortedList = pageList
-                .sort((a, b) => a.secondsSinceEpoch - b.secondsSinceEpoch)
-                .reverse();
-            return sortedList;
-        })
-        .catch(error => console.log("Error creating pageList", error));
+    const fileNameList = ['index.js', 'blog.js']
+    const pageList = createPageList(fileNameList);
+    const sortedList = pageList
+        .sort((a, b) => a.secondsSinceEpoch - b.secondsSinceEpoch)
+        .reverse();
+    return sortedList;
 }

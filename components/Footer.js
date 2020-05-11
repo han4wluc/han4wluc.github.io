@@ -1,10 +1,11 @@
 import React from "react";
-import { config } from "../config/config.yml";
 
 export default function Footer() {
     return (
         <div className="footer">
-            &copy; {new Date().getFullYear()} {'han4wluc'}
+            <span>
+                &copy; {new Date().getFullYear()} {'han4wluc'}
+            </span>
         </div>
     );
 }
